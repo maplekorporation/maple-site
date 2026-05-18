@@ -26,8 +26,11 @@ export default function MapleSite() {
       {/* NAVBAR */}
       <header className="fixed w-full bg-white/70 backdrop-blur-lg border-b z-50">
         <div className="max-w-7xl mx-auto flex justify-between items-center p-4">
-          <div className="font-extrabold text-xl bg-gradient-to-r from-blue-600 to-purple-600 bg-clip-text text-transparent">
-            Maple Korporation
+          <div className="flex items-center gap-3">
+            <img src="/logo.png" alt="Maple Korporation" className="h-10 w-auto" />
+            <span className="font-extrabold text-xl bg-gradient-to-r from-blue-600 to-purple-600 bg-clip-text text-transparent">
+              Maple Korporation
+            </span>
           </div>
 
           <nav className="hidden md:flex gap-8 text-sm font-medium">
@@ -71,7 +74,7 @@ export default function MapleSite() {
         </h2>
 
         <p className="text-center text-gray-600 max-w-3xl mx-auto">
-           Maple Corporation is a trusted provider of high-quality medical and dental equipment, delivering precision-engineered solutions to clinics and hospitals. Alongside our healthcare expertise, we are building intelligent AI systems that enhance efficiency, streamline operations, and unlock data-driven decision-making.
+           Maple Korporation is a trusted provider of high-quality medical and dental equipment, delivering precision-engineered solutions to clinics and hospitals. Alongside our healthcare expertise, we are building intelligent AI systems that enhance efficiency, streamline operations, and unlock data-driven decision-making.
         </p>
 
         {/* Vision + Mission */}
@@ -173,7 +176,7 @@ export default function MapleSite() {
               <MdEmail className="text-green-600 text-xl" />
               <div>
                 <p>Email</p>
-                <p className="text-gray-500">support@maplecorp.com</p>
+                <p className="text-gray-500">info@maplekorporation.com</p>
               </div>
             </div>
 
@@ -181,7 +184,7 @@ export default function MapleSite() {
               <MdPhone className="text-green-600 text-xl" />
               <div>
                 <p>Phone</p>
-                <p className="text-gray-500">+91-XXXXXXXXXX</p>
+                <p className="text-gray-500">+91-9831028752</p>
               </div>
             </div>
 
@@ -189,7 +192,9 @@ export default function MapleSite() {
               <MdLocationOn className="text-green-600 text-xl" />
               <div>
                 <p>Office</p>
-                <p className="text-gray-500">Kolkata, India</p>
+                <p className="text-gray-500">5/1, Akrur Dutt Lane,</p>
+                <p className="text-gray-500">Kolkata - 700012,</p>
+                <p className="text-gray-500">India</p>
               </div>
             </div>
           </div>

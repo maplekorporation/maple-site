@@ -22,6 +22,9 @@ export const metadata = {
   },
   description:
     "Leading provider of medical and dental equipment combined with AI-driven solutions.",
+  icons: {
+    icon: "/favicon.ico",
+  },
 };
 
 export default function RootLayout({
